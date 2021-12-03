@@ -13,12 +13,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Navbar/>
+        
       </main>
-
-      <footer className={styles.footer}>
-    
-      </footer>
     </div>
   )
 }
