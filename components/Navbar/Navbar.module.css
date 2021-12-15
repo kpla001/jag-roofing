@@ -1,0 +1,17 @@
+nav.navbar {
+  background-color: #58e0e2;
+  padding: 1em 0.5em 1em 0.5em;
+  color: #fff;
+  display: block;
+}
+
+div.navbarLinksContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbarLinksContainer a {
+  text-decoration: none;
+  font-weight: 500;
+}

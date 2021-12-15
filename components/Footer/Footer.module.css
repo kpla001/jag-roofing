@@ -1,0 +1,9 @@
+div.footer {
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  color: white;
+  background-color: rgba(13, 13, 14, 0.582);
+}
