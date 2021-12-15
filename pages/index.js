@@ -1,10 +1,10 @@
-import Head from "next/head";
-import Image from "next/image";
-import Navbar from "../components/Navbar/Navbar";
+import Head from 'next/head'
+import Image from 'next/image'
+import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.home}>
       <Head>
         <title>Home - JAG Roofing Solutions</title>
         <meta
@@ -14,7 +14,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main></main>
+      <main className={styles.body}>
+        <header className={styles.header}></header>
+      </main>
     </div>
-  );
+  )
 }
