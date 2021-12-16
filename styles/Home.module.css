@@ -1,4 +1,4 @@
-.home main::before {
+/* .home main::before {
   width: 100%;
   content: '';
   background-image: url('../public/Images/IMG_0954.JPG');
@@ -9,4 +9,54 @@
   bottom: 0em;
   left: 0px;
   opacity: 0.75;
+} */
+
+.home main {
+  width: 100%;
+
+  /* margin: 1em 0 1em 0; */
+  /* opacity: 0.75; */
+}
+
+.body img {
+  max-width: 100%;
+}
+
+header.header {
+  padding: 1em 0.5em 1em 0.5em;
+  width: 100%;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.822);
+  background-color: whitesmoke;
+}
+
+.header h1 {
+  font-weight: bold;
+  font-size: 2.5em;
+  color: grey;
+  text-transform: capitalize;
+  margin: 0 0 0.5em 0;
+}
+
+.header p {
+  font-weight: bold;
+  font-size: 1em;
+  color: rgba(128, 128, 128, 0.753);
+  margin: 0 0 0.5em 0;
+}
+
+section.section {
+  padding: 1em 0.5em 1em 0.5em;
+  background-color: whitesmoke;
+  color: rgba(128, 128, 128, 0.753);
+}
+
+.section ul {
+  font-weight: bold;
+}
+
+.section i {
+  color: #58e0e2;
+  border: 1px solid #58e0e249;
+  border-radius: 50%;
 }
