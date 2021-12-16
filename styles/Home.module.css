@@ -27,13 +27,13 @@ header.header {
   width: 100%;
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.822);
-  background-color: whitesmoke;
+  background-color: rgb(245, 245, 245);
 }
 
 .header h1 {
   font-weight: bold;
   font-size: 2.5em;
-  color: grey;
+  color: rgb(128, 128, 128);
   text-transform: capitalize;
   margin: 0 0 0.5em 0;
 }
@@ -47,7 +47,7 @@ header.header {
 
 section.section {
   padding: 1em 0.5em 1em 0.5em;
-  background-color: whitesmoke;
+  background-color: rgb(245, 245, 245);
   color: rgba(128, 128, 128, 0.753);
 }
 
