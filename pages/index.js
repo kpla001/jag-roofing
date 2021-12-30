@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import homeImage from '../public/Images/IMG_0954.JPG'
+import houses from '../public/Images/houses.svg'
 
 export default function Home() {
   return (
@@ -33,46 +34,41 @@ export default function Home() {
         </header>
         <Image src={homeImage} layout="responsive" alt="rooftop view of a house" />
         <section className={styles.section}>
-          <ul>
+          <ul className={styles.benefitsList}>
             <li>
               <i className="fas fa-check"></i>
-              &nbsp;Family owned
+              &emsp;&emsp;&emsp;&emsp;Family owned
             </li>
             <li>
               <i className="fas fa-check"></i>
-              &nbsp;Certified, licensed, and insured
+              &emsp;&emsp;&emsp;&emsp;Certified, licensed, and insured
             </li>
             <li>
               <i className="fas fa-check"></i>
-              &nbsp;Free estimates provided
+              &emsp;&emsp;&emsp;&emsp;Free estimates provided
             </li>
             <li>
               <i className="fas fa-check"></i>
-              &nbsp;Hurricane ready
+              &emsp;&emsp;&emsp;&emsp;Hurricane ready
             </li>
             <li>
               <i className="fas fa-check"></i>
-              &nbsp;Hundreds of roofs repaired
+              &emsp;&emsp;&emsp;&emsp;Hundreds of roofs repaired
             </li>
             <li>
               <i className="fas fa-check"></i>
-              &nbsp;Honest & upfront pricing
+              &emsp;&emsp;&emsp;&emsp;Honest & upfront pricing
             </li>
             <li>
               <i className="fas fa-check"></i>
-              &nbsp;Quality guaranteed
+              &emsp;&emsp;&emsp;&emsp;Quality guaranteed
             </li>
           </ul>
         </section>
+        <div className={styles.graphic}>
+          <Image src={houses} layout="responsive" alt="graphic image of three houses" />
+        </div>
       </main>
     </div>
   )
 }
-
-// ✅ Family owned
-// ✅ Certified, licensed, and insured
-// ✅ Free estimates provided
-// ✅ Hurricane ready
-// ✅ Hundreds of roofs repaired
-// ✅ Honest & upfront pricing
-// ✅ Quality guaranteed
