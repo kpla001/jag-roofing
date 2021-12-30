@@ -95,5 +95,35 @@ div.graphic {
   font-weight: bold;
   font-size: 1em;
   color: rgba(128, 128, 128, 0.753);
-  margin: 0.5em 0.5em 0.5em 0.5em;
+  margin: 0.5em 0.5em 0 0.5em;
+}
+.section3 {
+  background-color: rgb(245, 245, 245);
+  color: rgba(128, 128, 128, 0.753);
+  padding: 0.5em 0 1em 0;
+}
+
+.section3 > h1 {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: rgb(128, 128, 128);
+  text-transform: capitalize;
+  margin: 0 0 0.5em 0.5em;
+  text-align: left;
+}
+
+.section3 i {
+  color: #58e0e2;
+}
+
+.section3 > img {
+  width: 100%;
+  margin: 0;
+}
+
+.section3 > p {
+  font-weight: bold;
+  font-size: 1em;
+  color: rgba(128, 128, 128, 0.753);
+  margin: 0.5em 0.5em 0 0.5em;
 }

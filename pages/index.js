@@ -5,6 +5,9 @@ import styles from '../styles/Home.module.css'
 import homeImage from '../public/Images/IMG_0954.JPG'
 import houses from '../public/Images/houses.svg'
 import metalRoof1 from '../public/Images/metalRoof1.JPG'
+import buildYourHome from '../public/Images/buildYourHome.svg'
+import shingleRoof1 from '../public/Images/shingleRoof1.JPG'
+import buildings from '../public/Images/buildings.svg'
 
 export default function Home() {
   return (
@@ -86,6 +89,31 @@ export default function Home() {
             maintenance, and energy efficiency.
           </p>
         </section>
+        <div className={styles.graphic}>
+          <Image
+            src={buildYourHome}
+            layout="responsive"
+            alt="illustration of two persons looking at image of future home"
+          />
+        </div>
+        <section className={styles.section3}>
+          <h1>
+            <i className="fas fa-home fa-lg"></i>
+            &nbsp; Shingle Roofing
+          </h1>
+          <Image
+            src={shingleRoof1}
+            layout="responsive"
+            alt="aerial view picture of home with shingled roofing"
+          />
+          <p>
+            Asphalt shingles are an excellent affordable option for property owners on a budget.
+            They can fit any style, and are easy to install or replace.
+          </p>
+        </section>
+        <div className={styles.graphic}>
+          <Image src={buildings} layout="responsive" alt="illustration of building skyline" />
+        </div>
       </main>
     </div>
   )
