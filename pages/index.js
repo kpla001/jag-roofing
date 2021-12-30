@@ -8,6 +8,7 @@ import metalRoof1 from '../public/Images/metalRoof1.JPG'
 import buildYourHome from '../public/Images/buildYourHome.svg'
 import shingleRoof1 from '../public/Images/shingleRoof1.JPG'
 import buildings from '../public/Images/buildings.svg'
+import tileRoof1 from '../public/Images/tileRoof1.JPG'
 
 export default function Home() {
   return (
@@ -114,6 +115,22 @@ export default function Home() {
         <div className={styles.graphic}>
           <Image src={buildings} layout="responsive" alt="illustration of building skyline" />
         </div>
+        <section className={styles.serviceSection}>
+          <h1>
+            <i className="fas fa-leaf fa-lg"></i>
+            &nbsp; Tile Roofing
+          </h1>
+          <Image
+            src={tileRoof1}
+            layout="responsive"
+            alt="aerial view picture of home with tiled roofing"
+          />
+          <p>
+            Tile roofs are a great choice for homes that experience hot weather or exposure to salt
+            air and are ideal for climates where infrequent rains dump large amounts of water in a
+            short time, which is why they are such a popular option in South Florida.
+          </p>
+        </section>
       </main>
     </div>
   )
