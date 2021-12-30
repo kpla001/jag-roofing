@@ -73,7 +73,7 @@ export default function Home() {
         <div className={styles.graphic}>
           <Image src={houses} layout="responsive" alt="graphic image of three houses" />
         </div>
-        <section className={styles.section2}>
+        <section className={styles.serviceSection}>
           <h1>
             <i className="fas fa-shield fa-lg"></i>
             &nbsp; Metal Roofing
@@ -96,7 +96,7 @@ export default function Home() {
             alt="illustration of two persons looking at image of future home"
           />
         </div>
-        <section className={styles.section3}>
+        <section className={styles.serviceSection}>
           <h1>
             <i className="fas fa-home fa-lg"></i>
             &nbsp; Shingle Roofing
