@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+
 import homeImage from '../public/Images/IMG_0954.JPG'
 import houses from '../public/Images/houses.svg'
+import metalRoof1 from '../public/Images/metalRoof1.JPG'
 
 export default function Home() {
   return (
@@ -68,6 +70,22 @@ export default function Home() {
         <div className={styles.graphic}>
           <Image src={houses} layout="responsive" alt="graphic image of three houses" />
         </div>
+        <section className={styles.section2}>
+          <h1>
+            <i className="fas fa-shield fa-lg"></i>
+            &nbsp; Metal Roofing
+          </h1>
+          <Image
+            src={metalRoof1}
+            layout="responsive"
+            alt="aerial view picture of home with metal roofing"
+          />
+          <p>
+            Whether you are putting a roof on a new home, or your existing roof requires a total
+            makeover, metal roofs can be an attractive option because of their durability, minimal
+            maintenance, and energy efficiency.
+          </p>
+        </section>
       </main>
     </div>
   )
