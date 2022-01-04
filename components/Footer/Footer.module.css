@@ -8,3 +8,25 @@ div.footer {
   color: white;
   background-color: rgba(13, 13, 14, 0.76);
 }
+
+.footer h1 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0 0 0.2em 0;
+}
+
+.footer > div {
+  margin: 0 0 1em 0;
+}
+
+.contact > i {
+  color: #58e0e2;
+}
+
+.contact > p {
+  display: inline-block;
+}
+
+.schedule > p {
+  margin: 0 0 0.5em 0;
+}

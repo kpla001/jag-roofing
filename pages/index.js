@@ -72,7 +72,7 @@ export default function Home() {
           </ul>
         </section>
         <div className={styles.graphic}>
-          <Image src={houses} layout="responsive" alt="graphic image of three houses" />
+          <Image src={buildings} layout="responsive" alt="graphic image of three houses" />
         </div>
         <section className={styles.serviceSection}>
           <h1>
@@ -113,7 +113,7 @@ export default function Home() {
           </p>
         </section>
         <div className={styles.graphic}>
-          <Image src={buildings} layout="responsive" alt="illustration of building skyline" />
+          <Image src={houses} layout="responsive" alt="illustration of building skyline" />
         </div>
         <section className={styles.serviceSection}>
           <h1>
