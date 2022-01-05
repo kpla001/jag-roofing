@@ -38,10 +38,9 @@ export default function Home() {
             </p>
           </div>
         </header>
-        <Image src={homeImage} layout="responsive" alt="rooftop view of a house" />
-        {/* <video autoPlay loop style={{ width: '500px', height: '500px' }}>
-          <source src="" />
-        </video> */}
+        <video autoPlay loop muted style={{ width: '100%', height: 'auto' }}>
+          <source src="/Videos/intro.MOV" type="video/mp4" />
+        </video>
         <section className={styles.section}>
           <ul className={styles.benefitsList}>
             <li>
