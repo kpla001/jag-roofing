@@ -27,6 +27,11 @@ div.footer {
   display: inline-block;
 }
 
-.schedule > p {
-  margin: 0 0 0.5em 0;
+div.schedule {
+  margin: 0 0 1em 0;
+}
+
+span.column1 {
+  width: 10em;
+  float: left;
 }

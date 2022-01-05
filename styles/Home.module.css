@@ -34,30 +34,6 @@ header.header {
   }
 }
 
-@media (min-width: 438px) {
-  .header h1 {
-    font-size: 3.4em;
-  }
-}
-
-@media (min-width: 480px) {
-  .header h1 {
-    font-size: 4em;
-  }
-}
-
-@media (min-width: 620px) {
-  .header h1 {
-    font-size: 4.2em;
-  }
-}
-
-@media (min-width: 650px) {
-  .header h1 {
-    font-size: 4.5em;
-  }
-}
-
 section.section {
   display: block;
   padding: 1em 0.5em 1em 0.5em;

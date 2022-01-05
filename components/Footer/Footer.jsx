@@ -17,21 +17,17 @@ export default function Footer() {
         <h1>Business Hours</h1>
         <div className={styles.schedule}>
           <p>
-            <span>Monday - Friday:</span>
-            <br />
+            <span className={styles.column1}>Monday - Friday:</span>
             <span> 8:00am - 5:30pm </span>
           </p>
           <p>
-            <span>Saturday & Sunday:</span>
-            <br />
-            <span>closed</span>
+            <span className={styles.column1}>Saturday & Sunday:</span>
+            <span>Closed</span>
           </p>
         </div>
         <div className={styles.license}>
           <h1>License #</h1>
-          <div className={styles.schedule}>
-            <p>CCC1333509</p>
-          </div>
+          <p>CCC1333509</p>
         </div>
       </div>
     </div>

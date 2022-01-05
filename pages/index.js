@@ -32,7 +32,6 @@ export default function Home() {
         <Image src={logo} layout="responsive" alt="jag roofing logo" />
         <header className={styles.header}>
           <div className={styles.split}>
-            {/* <h1>Your reliable South Florida roofing & waterproofing solutions provider</h1> */}
             <p>
               A local father-son business with over 20 years of experience serving residential and
               commercial clients in our community.
@@ -70,7 +69,7 @@ export default function Home() {
             </li>
             <li>
               <i className="fas fa-check"></i>
-              &emsp;&emsp;&emsp;&emsp;Accredited by the Better Busiess Bureau
+              &emsp;&emsp;&emsp;&emsp;Better Business Bureau accredited
             </li>
             <li>
               <i className="fas fa-check"></i>
