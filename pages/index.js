@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import homeImage from '../public/Images/IMG_0954.JPG'
+import logo from '../public/Images/logo.jpg'
 import houses from '../public/Images/houses.svg'
 import metalRoof1 from '../public/Images/metalRoof1.JPG'
 import buildYourHome from '../public/Images/buildYourHome.svg'
@@ -29,9 +29,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.body}>
+        <Image src={logo} layout="responsive" alt="jag roofing logo" />
         <header className={styles.header}>
           <div className={styles.split}>
-            <h1>Your reliable South Florida roofing & waterproofing solutions provider</h1>
+            {/* <h1>Your reliable South Florida roofing & waterproofing solutions provider</h1> */}
             <p>
               A local father-son business with over 20 years of experience serving residential and
               commercial clients in our community.

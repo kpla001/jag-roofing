@@ -9,9 +9,15 @@ div.navbarLinksContainer {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .navbarLinksContainer a {
+  /* height: 1.2em; */
   text-decoration: none;
   font-weight: 500;
+}
+
+.navbar img {
+  border-radius: 50%;
 }
