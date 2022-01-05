@@ -39,6 +39,9 @@ export default function Home() {
           </div>
         </header>
         <Image src={homeImage} layout="responsive" alt="rooftop view of a house" />
+        {/* <video autoPlay loop style={{ width: '500px', height: '500px' }}>
+          <source src="" />
+        </video> */}
         <section className={styles.section}>
           <ul className={styles.benefitsList}>
             <li>
@@ -64,6 +67,10 @@ export default function Home() {
             <li>
               <i className="fas fa-check"></i>
               &emsp;&emsp;&emsp;&emsp;Honest & upfront pricing
+            </li>
+            <li>
+              <i className="fas fa-check"></i>
+              &emsp;&emsp;&emsp;&emsp;Accredited by the Better Busiess Bureau
             </li>
             <li>
               <i className="fas fa-check"></i>

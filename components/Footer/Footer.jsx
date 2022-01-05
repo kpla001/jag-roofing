@@ -11,7 +11,7 @@ export default function Footer() {
         <br />
         <i className="fas fa-at"></i>
         &nbsp;
-        <p>info@jagroofing.com</p>
+        <p>garciajoe@jagroofing.com</p>
       </div>
       <div className={styles.hours}>
         <h1>Business Hours</h1>
@@ -26,6 +26,12 @@ export default function Footer() {
             <br />
             <span>closed</span>
           </p>
+        </div>
+        <div className={styles.license}>
+          <h1>License #</h1>
+          <div className={styles.schedule}>
+            <p>CCC1333509</p>
+          </div>
         </div>
       </div>
     </div>
