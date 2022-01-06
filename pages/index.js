@@ -114,15 +114,19 @@ export default function Home() {
             <i className="fas fa-home fa-lg"></i>
             &nbsp; Shingle Roofing
           </h1>
-          <Image
-            src={shingleRoof1}
-            layout="responsive"
-            alt="aerial view picture of home with shingled roofing"
-          />
-          <p>
-            Asphalt shingles are an excellent affordable option for property owners on a budget.
-            They can fit any style, and are easy to install or replace.
-          </p>
+          <div className={styles.split}>
+            <div className={styles.imageContainer}>
+              <Image
+                src={shingleRoof1}
+                layout="responsive"
+                alt="aerial view picture of home with shingled roofing"
+              />
+            </div>
+            <p>
+              Asphalt shingles are an excellent affordable option for property owners on a budget.
+              They can fit any style, and are easy to install or replace.
+            </p>
+          </div>
         </section>
         <div className={styles.graphic}>
           <Image src={houses} layout="responsive" alt="illustration of building skyline" />
@@ -132,16 +136,20 @@ export default function Home() {
             <i className="fas fa-leaf fa-lg"></i>
             &nbsp; Tile Roofing
           </h1>
-          <Image
-            src={tileRoof1}
-            layout="responsive"
-            alt="aerial view picture of home with tiled roofing"
-          />
-          <p>
-            Tile roofs are a great choice for homes that experience hot weather or exposure to salt
-            air and are ideal for climates where infrequent rains dump large amounts of water in a
-            short time, which is why they are such a popular option in South Florida.
-          </p>
+          <div className={styles.reverseSplit}>
+            <div className={styles.imageContainer}>
+              <Image
+                src={tileRoof1}
+                layout="responsive"
+                alt="aerial view picture of home with tiled roofing"
+              />
+            </div>
+            <p>
+              Tile roofs are a great choice for homes that experience hot weather or exposure to
+              salt air and are ideal for climates where infrequent rains dump large amounts of water
+              in a short time, which is why they are such a popular option in South Florida.
+            </p>
+          </div>
         </section>
       </main>
     </div>

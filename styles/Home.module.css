@@ -124,7 +124,7 @@ div.graphic {
 
 @media (min-width: 640px) {
   section.serviceSection {
-    padding: 0.5em 0.5em 1em 0;
+    padding: 0.5em 0.5em 1em 0.5em;
   }
 
   section.serviceSection h1 {
