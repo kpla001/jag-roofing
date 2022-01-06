@@ -7,7 +7,7 @@ import houses from '../public/Images/houses.svg'
 import metalRoof1 from '../public/Images/metalRoof1.JPG'
 import buildYourHome from '../public/Images/buildYourHome.svg'
 import shingleRoof1 from '../public/Images/shingleRoof1.JPG'
-import buildings from '../public/Images/buildings.svg'
+import buildings from '../public/Images/buildings.png'
 import tileRoof1 from '../public/Images/tileRoof1.JPG'
 
 export default function Home() {
@@ -80,7 +80,12 @@ export default function Home() {
           </ul>
         </section>
         <div className={styles.graphic}>
-          <Image src={buildings} layout="responsive" alt="graphic image of three houses" />
+          <Image
+            src={buildings}
+            layout="responsive"
+            alt="graphic image of three houses"
+            className={styles.buildings}
+          />
         </div>
         <section className={styles.serviceSection}>
           <h1>
