@@ -15,7 +15,13 @@ div.navbarLinksContainer {
 
 .navbarLinksContainer a {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: bold;
+}
+
+@media (min-width: 640px) {
+  .navbarLinksContainer a {
+    font-size: 1.2em;
+  }
 }
 
 .navbar img {

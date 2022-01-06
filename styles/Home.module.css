@@ -6,12 +6,42 @@
   max-width: 100%;
 }
 
+div.imageContainer {
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  div.split {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 header.header {
   padding: 1em 0.5em 1em 0.5em;
   width: 100%;
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.822);
   background-color: rgb(245, 245, 245);
+}
+
+@media (min-width: 640px) {
+  header.header {
+    width: 50%;
+  }
+  header.header > p {
+    margin: 1.4em 0 0 0;
+    font-size: 1.4em;
+    text-align: left;
+  }
+}
+
+@media (min-width: 740px) {
+  header.header > p {
+    margin: 1.2em 0 0 0;
+    font-size: 1.8em;
+  }
 }
 
 .header h1 {

@@ -29,15 +29,17 @@ export default function Home() {
       </Head>
 
       <main className={styles.body}>
-        <Image src={logo} layout="responsive" alt="jag roofing logo" />
-        <header className={styles.header}>
-          <div className={styles.split}>
+        <div className={styles.split}>
+          <div className={styles.imageContainer}>
+            <Image src={logo} layout="responsive" alt="jag roofing logo" />
+          </div>
+          <header className={styles.header}>
             <p>
               A local father-son business with over 20 years of experience serving residential and
               commercial clients in our community.
             </p>
-          </div>
-        </header>
+          </header>
+        </div>
         <video autoPlay loop muted style={{ width: '100%', height: 'auto' }}>
           <source src="/Videos/intro.MOV" type="video/mp4" />
         </video>
