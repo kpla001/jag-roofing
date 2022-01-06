@@ -18,6 +18,13 @@ div.imageContainer {
   }
 }
 
+@media (min-width: 640px) {
+  div.reverseSplit {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
 header.header {
   padding: 1em 0.5em 1em 0.5em;
   width: 100%;
@@ -81,6 +88,12 @@ section.section {
   border-radius: 50%;
 }
 
+@media (min-width: 640px) {
+  section.section ul {
+    font-size: 1.2em;
+  }
+}
+
 div.graphic {
   display: block;
   margin: 2em 0 2em 0;
@@ -90,7 +103,6 @@ div.graphic {
   display: block;
   background-color: rgb(245, 245, 245);
   color: rgba(128, 128, 128, 0.753);
-  padding: 0.5em 0 1em 0;
 }
 
 .serviceSection > h1 {
@@ -111,8 +123,22 @@ div.graphic {
   margin: 0;
 }
 
-.serviceSection > p {
+.serviceSection p {
   font-size: 1em;
   color: rgba(128, 128, 128, 0.753);
   margin: 0.5em 0.5em 0 0.5em;
+}
+
+@media (min-width: 640px) {
+  section.serviceSection {
+    padding: 0.5em 0.5em 1em 0;
+  }
+
+  section.serviceSection h1 {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.13);
+  }
+  section.serviceSection p {
+    max-width: 40%;
+    margin: 0.5em 0.5em 0 0.5em;
+  }
 }

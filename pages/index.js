@@ -87,16 +87,20 @@ export default function Home() {
             <i className="fas fa-shield fa-lg"></i>
             &nbsp; Metal Roofing
           </h1>
-          <Image
-            src={metalRoof1}
-            layout="responsive"
-            alt="aerial view picture of home with metal roofing"
-          />
-          <p>
-            Whether you are putting a roof on a new home, or your existing roof requires a total
-            makeover, metal roofs can be an attractive option because of their durability, minimal
-            maintenance, and energy efficiency.
-          </p>
+          <div className={styles.reverseSplit}>
+            <div className={styles.imageContainer}>
+              <Image
+                src={metalRoof1}
+                layout="responsive"
+                alt="aerial view picture of home with metal roofing"
+              />
+            </div>
+            <p>
+              Whether you are putting a roof on a new home, or your existing roof requires a total
+              makeover, metal roofs can be an attractive option because of their durability, minimal
+              maintenance, and energy efficiency.
+            </p>
+          </div>
         </section>
         <div className={styles.graphic}>
           <Image

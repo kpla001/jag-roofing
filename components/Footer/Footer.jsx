@@ -9,7 +9,7 @@ export default function Footer() {
         &nbsp;
         <p>(305)484-1080</p>
         <br />
-        <i className="fas fa-at"></i>
+        <i className="fas fa-envelope"></i>
         &nbsp;
         <p>garciajoe@jagroofing.com</p>
       </div>
