@@ -120,7 +120,7 @@ div.graphic {
 .serviceSection p {
   font-size: 1em;
   color: rgba(128, 128, 128, 0.753);
-  margin: 0.5em 0.5em 0 0.5em;
+  margin: 0.5em;
 }
 
 @media (min-width: 640px) {

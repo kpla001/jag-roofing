@@ -18,11 +18,11 @@ export default function Footer() {
           <h1>Business Hours</h1>
           <div className={styles.schedule}>
             <p>
-              <span className={styles.column1}>Monday - Friday:</span>
+              <span className={styles.column1}>Mon - Fri:</span>
               <span> 8:00am - 5:30pm </span>
             </p>
             <p>
-              <span className={styles.column1}>Saturday & Sunday:</span>
+              <span className={styles.column1}>Sat & Sun:</span>
               <span>Closed</span>
             </p>
           </div>
