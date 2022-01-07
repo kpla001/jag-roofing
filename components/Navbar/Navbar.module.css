@@ -33,4 +33,6 @@ div.navbarLinksContainer {
 
 .navbar img {
   border-radius: 50%;
+  width: 42px;
+  height: 40px;
 }

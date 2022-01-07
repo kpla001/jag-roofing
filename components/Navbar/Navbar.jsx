@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className={styles.navbarLinksContainer}>
         <Link href="/">
           <a>
-            <Image src={logo} layout="fixed" alt="jag roofing logo" width="42" height="40" />
+            <Image src={logo} layout="fixed" alt="jag roofing logo" width="54" height="50" />
           </a>
         </Link>
         <Link href="/about">
