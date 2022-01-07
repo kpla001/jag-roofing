@@ -3,7 +3,7 @@ div.footer {
   display: block;
   position: relative;
   bottom: 0;
-  padding: 0.5em 0.5em 0.5em 0.5em;
+  padding: 0.5em 1em 0.5em 1em;
   margin: 0;
   color: white;
   background-color: rgba(13, 13, 14, 0.76);
@@ -15,7 +15,7 @@ div.footer {
   margin: 0 0 0.2em 0;
 }
 
-.footer > div {
+.footer div {
   margin: 0 0 1em 0;
 }
 
@@ -34,4 +34,16 @@ div.schedule {
 span.column1 {
   width: 10em;
   float: left;
+}
+
+@media (min-width: 640px) {
+  .footerSplit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footerSplit > div {
+    margin: 1em 0 0 0;
+  }
 }
