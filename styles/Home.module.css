@@ -35,12 +35,18 @@ header.header {
     'Lucida Grande', sans-serif;
 }
 
+.header p {
+  font-size: 1em;
+  color: rgba(128, 128, 128, 0.753);
+  margin: 0 0 0.5em 0;
+}
+
 @media (min-width: 640px) {
   header.header {
     width: 50%;
   }
   header.header > p {
-    margin: 1.4em 0 0 0;
+    margin: 0;
     font-size: 1.6em;
     text-align: left;
   }
@@ -48,23 +54,49 @@ header.header {
 
 @media (min-width: 740px) {
   header.header > p {
-    margin: 1.2em 0 0 0;
-    font-size: 1.8em;
+    margin: 0;
+    font-size: 1.9em;
   }
 }
 
-.header h1 {
-  font-weight: bold;
-  font-size: 2.5em;
-  color: rgb(128, 128, 128);
-  text-transform: capitalize;
-  margin: 0 0 0.5em 0;
-}
+@media (min-width: 1008px) {
+  div.imageContainer {
+    width: 100%;
+  }
+  header.header {
+    width: 100%;
+  }
 
-.header p {
-  font-size: 1em;
-  color: rgba(128, 128, 128, 0.753);
-  margin: 0 0 0.5em 0;
+  header.header > p {
+    font-size: 1em;
+    width: 100%;
+  }
+
+  div.split {
+    flex-direction: column;
+    width: 30%;
+  }
+
+  div.videoContainer {
+    width: 100%;
+  }
+
+  div.videoSection {
+    width: 41.65%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.largeSplit {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1em;
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+  }
 }
 
 section.section {
@@ -82,7 +114,16 @@ section.section {
 
 @media (min-width: 640px) {
   section.section ul {
-    font-size: 1.2em;
+    font-size: 1.3em;
+    column-count: 2;
+    white-space: pre;
+  }
+}
+
+@media (min-width: 1008px) {
+  section.section ul {
+    width: 100%;
+    font-size: 0.9em;
     column-count: 2;
     white-space: pre;
   }

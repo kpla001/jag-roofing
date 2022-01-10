@@ -17,7 +17,7 @@ export default function Home() {
         <title>Home - JAG Roofing Solutions</title>
         <meta
           name="JAG Roofing"
-          content="JAG Roofing Solutions - South Florida roofing & waterproofing"
+          content="JAG Roofing Solutions - South Florida roofing, repairs, and waterproofing"
         />
         <link rel="icon" href="/favicon.ico" />
         <link
@@ -29,56 +29,68 @@ export default function Home() {
       </Head>
 
       <main className={styles.body}>
-        <div className={styles.split}>
-          <div className={styles.imageContainer}>
-            <Image src={logo} layout="responsive" alt="jag roofing logo" />
+        <div className={styles.largeSplit}>
+          <div className={styles.split}>
+            <div className={styles.imageContainer}>
+              <Image src={logo} layout="responsive" alt="jag roofing logo" />
+            </div>
+            <header className={styles.header}>
+              <p>
+                A local father-son roofing business with over 20 years of experience serving
+                residential and commercial clients in our South Florida community.
+              </p>
+            </header>
           </div>
-          <header className={styles.header}>
-            <p>
-              A local father-son business with over 20 years of experience serving residential and
-              commercial clients in our community.
-            </p>
-          </header>
+          <div className={styles.videoSection}>
+            <div className={styles.videoContainer}>
+              <video
+                autoPlay
+                loop
+                muted
+                style={{ width: '100%', height: 'auto' }}
+                className={styles.video}
+              >
+                <source src="/Videos/intro.MOV" type="video/mp4" />
+              </video>
+            </div>
+            <section className={styles.section}>
+              <ul className={styles.benefitsList}>
+                <li>
+                  <i className="fas fa-check"></i>
+                  &emsp;&emsp;&emsp;&emsp;Family owned
+                </li>
+                <li>
+                  <i className="fas fa-check"></i>
+                  &emsp;&emsp;&emsp;&emsp;Certified, licensed, and insured
+                </li>
+                <li>
+                  <i className="fas fa-check"></i>
+                  &emsp;&emsp;&emsp;&emsp;Free estimates provided
+                </li>
+                <li>
+                  <i className="fas fa-check"></i>
+                  &emsp;&emsp;&emsp;&emsp;Hurricane ready
+                </li>
+                <li>
+                  <i className="fas fa-check"></i>
+                  &emsp;&emsp;&emsp;&emsp;Hundreds of roofs repaired
+                </li>
+                <li>
+                  <i className="fas fa-check"></i>
+                  &emsp;&emsp;&emsp;&emsp;Honest & upfront pricing
+                </li>
+                <li>
+                  <i className="fas fa-check"></i>
+                  &emsp;&emsp;&emsp;&emsp;Better Business Bureau accredited
+                </li>
+                <li>
+                  <i className="fas fa-check"></i>
+                  &emsp;&emsp;&emsp;&emsp;Quality guaranteed
+                </li>
+              </ul>
+            </section>
+          </div>
         </div>
-        <video autoPlay loop muted style={{ width: '100%', height: 'auto' }}>
-          <source src="/Videos/intro.MOV" type="video/mp4" />
-        </video>
-        <section className={styles.section}>
-          <ul className={styles.benefitsList}>
-            <li>
-              <i className="fas fa-check"></i>
-              &emsp;&emsp;&emsp;&emsp;Family owned
-            </li>
-            <li>
-              <i className="fas fa-check"></i>
-              &emsp;&emsp;&emsp;&emsp;Certified, licensed, and insured
-            </li>
-            <li>
-              <i className="fas fa-check"></i>
-              &emsp;&emsp;&emsp;&emsp;Free estimates provided
-            </li>
-            <li>
-              <i className="fas fa-check"></i>
-              &emsp;&emsp;&emsp;&emsp;Hurricane ready
-            </li>
-            <li>
-              <i className="fas fa-check"></i>
-              &emsp;&emsp;&emsp;&emsp;Hundreds of roofs repaired
-            </li>
-            <li>
-              <i className="fas fa-check"></i>
-              &emsp;&emsp;&emsp;&emsp;Honest & upfront pricing
-            </li>
-            <li>
-              <i className="fas fa-check"></i>
-              &emsp;&emsp;&emsp;&emsp;Better Business Bureau accredited
-            </li>
-            <li>
-              <i className="fas fa-check"></i>
-              &emsp;&emsp;&emsp;&emsp;Quality guaranteed
-            </li>
-          </ul>
-        </section>
         <div className={styles.graphic}>
           <Image
             src={buildings}
