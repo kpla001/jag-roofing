@@ -52,6 +52,15 @@ header.header {
 @media (min-width: 1008px) {
   div.imageContainer {
     width: 100%;
+    border-radius: 10px;
+  }
+
+  .imageContainer img {
+    border-radius: 10px;
+  }
+
+  .videoContainer video {
+    border-radius: 10px;
   }
   header.header {
     width: 100%;
@@ -242,7 +251,7 @@ div.graphic {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
-    padding: 1em;
+    padding: 1em 0 1em 0;
     margin: 0;
     background-color: #fff;
   }
@@ -252,6 +261,6 @@ div.graphic {
   }
 
   div.largeSplitWhite > section.serviceSection {
-    width: 47%;
+    width: 45%;
   }
 }
