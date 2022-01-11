@@ -94,6 +94,17 @@ header.header {
     margin: 0;
     background-color: rgb(245, 245, 245);
   }
+
+  div.largeReverseSplit {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 1em;
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+  }
 }
 
 section.section {
@@ -120,7 +131,7 @@ section.section {
 @media (min-width: 1008px) {
   section.section ul {
     width: 100%;
-    font-size: 0.9em;
+    font-size: 1em;
     column-count: 2;
     white-space: pre;
   }
@@ -191,7 +202,11 @@ div.graphic {
   }
   div.reverseSplit p {
     max-width: 100%;
-    font-size: 1.2em;
+    font-size: 1em;
+  }
+
+  section.serviceSection p {
+    font-size: 1em;
   }
   div.sectionSplit {
     display: flex;
@@ -200,10 +215,46 @@ div.graphic {
     justify-content: space-around;
   }
   section.serviceSection {
-    padding: 2em 0 0 0;
+    padding: 2em 0 2em 0;
     background-color: #fff;
   }
+
   div.sectionSplit > section {
     width: 45%;
+  }
+  section.serviceSection > div.split > p {
+    max-width: 100%;
+  }
+
+  section.serviceSection > div.split {
+    width: 90%;
+  }
+
+  div.largeReverseSplit > section.serviceSection {
+    width: 50%;
+    background-color: rgb(245, 245, 245);
+  }
+
+  div.largeReverseSplit > section.serviceSection > h1 {
+    width: 88.55%;
+  }
+
+  div.largeSplitWhite {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 1em;
+    margin: 0;
+    background-color: #fff;
+  }
+
+  div.largeSplitWhite > .graphic {
+    padding: 5em 0 0 0;
+  }
+
+  div.largeSplitWhite > section.serviceSection {
+    width: 47%;
   }
 }

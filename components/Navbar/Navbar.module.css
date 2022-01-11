@@ -38,3 +38,13 @@ div.navbarLinksContainer {
 .navbar img {
   border-radius: 50%;
 }
+
+@media (min-width: 1008px) {
+  nav.navbar {
+    font-size: 0.9em;
+  }
+  div.navbarLinksContainer {
+    width: 50%;
+    justify-content: space-around;
+  }
+}

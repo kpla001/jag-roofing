@@ -121,55 +121,63 @@ export default function Home() {
             </div>
           </section>
         </div>
-        <div className={styles.graphic}>
-          <Image
-            src={buildYourHome}
-            layout="responsive"
-            alt="illustration of two persons looking at image of future home"
-          />
-        </div>
-        <section className={styles.serviceSection}>
-          <h1>
-            <i className="fas fa-home fa-lg"></i>
-            &nbsp; Shingle Roofing
-          </h1>
-          <div className={styles.split}>
-            <div className={styles.imageContainer}>
-              <Image
-                src={shingleRoof1}
-                layout="responsive"
-                alt="aerial view picture of home with shingled roofing"
-              />
-            </div>
-            <p>
-              Asphalt shingles are an excellent affordable option for property owners on a budget.
-              They can fit any style, and are easy to install or replace.
-            </p>
+        <div className={styles.largeReverseSplit}>
+          <div className={styles.graphic}>
+            <Image
+              src={buildYourHome}
+              layout="responsive"
+              alt="illustration of two persons looking at image of future home"
+            />
           </div>
-        </section>
-        <div className={styles.graphic}>
-          <Image src={houses} layout="responsive" alt="illustration of building skyline" />
-        </div>
-        <section className={styles.serviceSection}>
-          <h1>
-            <i className="fas fa-leaf fa-lg"></i>
-            &nbsp; Tile Roofing
-          </h1>
-          <div className={styles.reverseSplit}>
-            <div className={styles.imageContainer}>
-              <Image
-                src={tileRoof1}
-                layout="responsive"
-                alt="aerial view picture of home with tiled roofing"
-              />
+          <section className={styles.serviceSection}>
+            <h1>
+              <i className="fas fa-home fa-lg"></i>
+              &nbsp; Shingle Roofing
+            </h1>
+            <div className={styles.split}>
+              <div className={styles.imageContainer}>
+                <Image
+                  src={shingleRoof1}
+                  layout="responsive"
+                  alt="aerial view picture of home with shingled roofing"
+                />
+              </div>
+              <p>
+                Asphalt shingles are an excellent affordable option for property owners on a budget.
+                They can fit any style, and are easy to install or replace.
+              </p>
             </div>
-            <p>
-              Tile roofs are a great choice for homes that experience hot weather or exposure to
-              salt air and are ideal for climates where infrequent rains dump large amounts of water
-              in a short time, which is why they are such a popular option in South Florida.
-            </p>
+          </section>
+        </div>
+        <div className={styles.largeSplitWhite}>
+          <div className={styles.graphic}>
+            <Image
+              src={houses}
+              layout="responsive"
+              alt="illustration of 3 houses in ascending order by size"
+            />
           </div>
-        </section>
+          <section className={styles.serviceSection}>
+            <h1>
+              <i className="fas fa-leaf fa-lg"></i>
+              &nbsp; Tile Roofing
+            </h1>
+            <div className={styles.reverseSplit}>
+              <div className={styles.imageContainer}>
+                <Image
+                  src={tileRoof1}
+                  layout="responsive"
+                  alt="aerial view picture of home with tiled roofing"
+                />
+              </div>
+              <p>
+                Tile roofs are a great choice for homes that experience hot weather or exposure to
+                salt air and are ideal for climates where infrequent rains dump large amounts of
+                water in a short time, which is why they are such a popular option in South Florida.
+              </p>
+            </div>
+          </section>
+        </div>
       </main>
     </div>
   )
