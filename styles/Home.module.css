@@ -26,33 +26,26 @@ header.header {
   padding: 1em 0.5em 1em 0.5em;
   width: 100%;
   line-height: 1.5;
-  color: rgb(0, 0, 0);
   background-color: rgb(245, 245, 245);
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
-    'Lucida Grande', sans-serif;
+  font-family: 'Impact', sans-serif;
 }
 
 .header p {
   font-size: 1em;
-  color: rgba(128, 128, 128, 0.753);
+  color: rgba(2, 2, 2, 0.493);
   margin: 0 0 0.5em 0;
 }
 
 @media (min-width: 640px) {
   header.header {
-    width: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
   }
   header.header > p {
     margin: 0;
-    font-size: 1.6em;
+    font-size: 1.5em;
     text-align: left;
-  }
-}
-
-@media (min-width: 740px) {
-  header.header > p {
-    margin: 0;
-    font-size: 1.9em;
   }
 }
 
@@ -114,6 +107,10 @@ section.section {
   color: rgba(128, 128, 128, 0.753);
 }
 
+section.section ul {
+  font-size: 0.9em;
+}
+
 .section i {
   color: #58e0e2;
   border: 1px solid #58e0e249;
@@ -122,7 +119,7 @@ section.section {
 
 @media (min-width: 640px) {
   section.section ul {
-    font-size: 1.3em;
+    font-size: 1.2em;
     column-count: 2;
     white-space: pre;
   }
@@ -251,7 +248,7 @@ div.graphic {
   }
 
   div.largeSplitWhite > .graphic {
-    padding: 5em 0 0 0;
+    padding: 8em 0 0 0;
   }
 
   div.largeSplitWhite > section.serviceSection {
