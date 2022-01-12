@@ -149,7 +149,8 @@ div.graphic {
   }
 
   div.videoSection {
-    width: 41.65%;
+    width: 58%;
+    padding: 0 0 0 13.5em;
     display: flex;
     flex-direction: column;
   }
@@ -160,7 +161,7 @@ div.graphic {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
-    padding: 1em;
+    padding: 4em 1em 1em 1em;
     margin: 0;
     background-color: rgb(245, 245, 245);
   }
@@ -247,7 +248,7 @@ div.graphic {
   }
 
   div.largeSplitWhite > .graphic {
-    padding: 8em 0 0 0;
+    padding: 7em 0 0 0;
   }
 
   div.largeSplitWhite > section.serviceSection {
