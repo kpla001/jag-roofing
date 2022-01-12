@@ -11,17 +11,6 @@ div.imageContainer {
   width: 100%;
 }
 
-@media (min-width: 640px) {
-  div.split {
-    display: flex;
-    flex-direction: row;
-  }
-  div.reverseSplit {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-}
-
 header.header {
   padding: 1em 0.5em 1em 0.5em;
   width: 100%;
@@ -36,7 +25,67 @@ header.header {
   margin: 0 0 0.5em 0;
 }
 
+section.section {
+  display: block;
+  padding: 1em 0.5em 1em 0.5em;
+  background-color: rgb(245, 245, 245);
+  color: rgba(128, 128, 128, 0.753);
+}
+
+section.section ul {
+  font-size: 0.9em;
+}
+
+.section i {
+  color: #58e0e2;
+  border: 1px solid #58e0e249;
+  border-radius: 50%;
+}
+
+div.graphic {
+  display: block;
+  margin: 2em 0 2em 0;
+}
+
+.serviceSection {
+  display: block;
+  background-color: rgb(245, 245, 245);
+  color: rgba(128, 128, 128, 0.753);
+}
+
+.serviceSection > h1 {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: rgb(128, 128, 128);
+  text-transform: capitalize;
+  margin: 0 0 0.5em 0.5em;
+  text-align: left;
+}
+
+.serviceSection i {
+  color: #58e0e2;
+}
+
+.serviceSection > img {
+  width: 100%;
+  margin: 0;
+}
+
+.serviceSection p {
+  font-size: 1em;
+  color: rgba(128, 128, 128, 0.753);
+  margin: 0.5em;
+}
+
 @media (min-width: 640px) {
+  div.split {
+    display: flex;
+    flex-direction: row;
+  }
+  div.reverseSplit {
+    display: flex;
+    flex-direction: row-reverse;
+  }
   header.header {
     width: 100%;
     display: flex;
@@ -44,8 +93,27 @@ header.header {
   }
   header.header > p {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.9em;
     text-align: left;
+    padding: 0.5em;
+  }
+  section.section ul {
+    font-size: 1.3em;
+    column-count: 2;
+    white-space: pre;
+  }
+  section.serviceSection {
+    padding: 0.5em 0.5em 1em 0.5em;
+  }
+
+  section.serviceSection h1 {
+    font-size: 1.4em;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.13);
+  }
+  section.serviceSection p {
+    max-width: 40%;
+    margin: 0.5em 0.5em 0 0.5em;
+    font-size: 1.2em;
   }
 }
 
@@ -107,99 +175,16 @@ header.header {
     margin: 0;
     background-color: rgb(245, 245, 245);
   }
-}
-
-section.section {
-  display: block;
-  padding: 1em 0.5em 1em 0.5em;
-  background-color: rgb(245, 245, 245);
-  color: rgba(128, 128, 128, 0.753);
-}
-
-section.section ul {
-  font-size: 0.9em;
-}
-
-.section i {
-  color: #58e0e2;
-  border: 1px solid #58e0e249;
-  border-radius: 50%;
-}
-
-@media (min-width: 640px) {
-  section.section ul {
-    font-size: 1.2em;
-    column-count: 2;
-    white-space: pre;
-  }
-}
-
-@media (min-width: 1008px) {
   section.section ul {
     width: 100%;
     font-size: 1em;
     column-count: 2;
     white-space: pre;
   }
-}
-
-div.graphic {
-  display: block;
-  margin: 2em 0 2em 0;
-}
-
-@media (min-width: 1008px) {
   div.graphic {
     width: 40%;
   }
-}
 
-.serviceSection {
-  display: block;
-  background-color: rgb(245, 245, 245);
-  color: rgba(128, 128, 128, 0.753);
-}
-
-.serviceSection > h1 {
-  font-weight: bold;
-  font-size: 1.2em;
-  color: rgb(128, 128, 128);
-  text-transform: capitalize;
-  margin: 0 0 0.5em 0.5em;
-  text-align: left;
-}
-
-.serviceSection i {
-  color: #58e0e2;
-}
-
-.serviceSection > img {
-  width: 100%;
-  margin: 0;
-}
-
-.serviceSection p {
-  font-size: 1em;
-  color: rgba(128, 128, 128, 0.753);
-  margin: 0.5em;
-}
-
-@media (min-width: 640px) {
-  section.serviceSection {
-    padding: 0.5em 0.5em 1em 0.5em;
-  }
-
-  section.serviceSection h1 {
-    font-size: 1.4em;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.13);
-  }
-  section.serviceSection p {
-    max-width: 40%;
-    margin: 0.5em 0.5em 0 0.5em;
-    font-size: 1.2em;
-  }
-}
-@media (min-width: 1008px) {
   div.split {
     flex-direction: column;
   }
@@ -214,6 +199,7 @@ div.graphic {
   section.serviceSection p {
     font-size: 1em;
   }
+
   div.sectionSplit {
     display: flex;
     flex-direction: row;
@@ -254,6 +240,10 @@ div.graphic {
     padding: 1em 0 1em 0;
     margin: 0;
     background-color: #fff;
+  }
+
+  div.largeReverseSplit > .graphic {
+    padding: 4em 10em 0 0;
   }
 
   div.largeSplitWhite > .graphic {

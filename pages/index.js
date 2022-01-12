@@ -81,7 +81,7 @@ export default function Home() {
                 </li>
                 <li>
                   <i className="fas fa-check"></i>
-                  &emsp;&emsp;&emsp;&emsp;Better Business Bureau accredited
+                  &emsp;&emsp;&emsp;&emsp;BBB accredited
                 </li>
                 <li>
                   <i className="fas fa-check"></i>
