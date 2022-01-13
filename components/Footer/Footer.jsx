@@ -32,6 +32,7 @@ export default function Footer() {
           <p>CCC1333509</p>
         </div>
       </div>
+      {/* add social media here */}
     </div>
   )
 }
