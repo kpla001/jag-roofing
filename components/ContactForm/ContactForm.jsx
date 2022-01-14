@@ -2,6 +2,8 @@ import Head from 'next/head'
 import { useState } from 'react'
 import styles from './ContactForm.module.css'
 
+import fetch from 'node-fetch'
+
 export default function ContactForm() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
