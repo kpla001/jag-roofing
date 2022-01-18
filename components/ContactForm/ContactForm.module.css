@@ -23,3 +23,8 @@
   outline: 1px solid #33888a;
   border-radius: 5px;
 }
+
+.inputGroup > textarea {
+  resize: none;
+  height: 6em;
+}
