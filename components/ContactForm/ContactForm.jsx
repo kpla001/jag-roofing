@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import { useState } from 'react'
 import styles from './ContactForm.module.css'
-
 import fetch from 'node-fetch'
 
 export default function ContactForm() {
@@ -10,6 +9,32 @@ export default function ContactForm() {
   const [message, setMessage] = useState('')
   const [submitted, setSubmitted] = useState(false)
 
+  const handleSubmit = e => {
+    e.preventDefault()
+    console.log('Sending')
+    let data = {
+      name,
+      email,
+      message,
+    }
+    fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json, text/plain, */*',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    }).then(res => {
+      console.log('Response received')
+      if (res.status === 200) {
+        console.log('Response succeeded!')
+        setSubmitted(true)
+        setName('')
+        setEmail('')
+        setBody('')
+      }
+    })
+  }
   return (
     <div className={styles.main}>
       <div className={styles.container}>
@@ -47,7 +72,12 @@ export default function ContactForm() {
               className={styles.inputField}
             />
           </formGroup>
-          <input type="submit" />
+          <input
+            type="submit"
+            onClick={e => {
+              handleSubmit(e)
+            }}
+          />
         </form>
       </div>
     </div>
