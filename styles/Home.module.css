@@ -102,6 +102,13 @@ div.graphic {
     column-count: 2;
     white-space: pre;
   }
+  div.imageContainer {
+    border-radius: 10px;
+  }
+
+  .imageContainer img {
+    border-radius: 10px;
+  }
   section.serviceSection {
     padding: 0.5em 0.5em 1em 0.5em;
   }
@@ -117,7 +124,7 @@ div.graphic {
   }
 }
 
-@media (min-width: 1008px) {
+@media (min-width: 1025px) {
   div.imageContainer {
     width: 100%;
     border-radius: 10px;
